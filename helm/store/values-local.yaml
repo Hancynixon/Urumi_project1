@@ -1,0 +1,8 @@
+wordpress:
+  service:
+    type: ClusterIP
+
+  ingress:
+    enabled: true
+    ingressClassName: nginx
+    hostname: example.localhost

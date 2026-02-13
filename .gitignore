@@ -1,0 +1,17 @@
+# Python
+backend/venv/
+backend/__pycache__/
+*.pyc
+
+# Node
+dashboard/node_modules/
+dashboard/build/
+
+# Helm
+helm/store/charts/
+helm/store/Chart.lock
+
+# Misc
+.env
+*.log
+.DS_Store
